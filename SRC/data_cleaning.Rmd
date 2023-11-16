@@ -1,0 +1,100 @@
+---
+title: "Data Cleaning"
+author: "Ana Cordova, Ishan Koroth, Ashley Huang (Leader)"
+date: "2023-11-06"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+setwd("/Users/anacristinacordova/Desktop/DSCP")
+library(tidyverse)
+library(zoo)
+```
+
+# 1. Read in data
+```{r}
+# All the information for weather regarding Washing DC and Alexandria Area
+weather_raw = read.csv("weather_data.csv")
+```
+
+# 2. Clean data
+## 2.1 Remove Variables 
+```{r}
+weather_01 = weather_raw %>%
+  select(-STATION, -ELEVATION, -NAME, -LATITUDE, -LONGITUDE) %>%
+  rename_all(tolower)
+```
+
+## 2.2 Rename variables and remove others
+```{r}
+weather_02 = weather_01 %>%
+  select(date,
+         days_min0_degrees = dt00, #days min temp is 0 degrees
+         days_min32_degrees=dt32,
+         days_max32_degrees=dx32,
+         days_max70_degrees=dx70,
+         days_max90_degrees=dx90, #days where 90 is max temp
+         numD_fog = dyfg, # number of days with fog
+         numD_thunder = dyts, #num day with thunderstorms
+         min_temp_ext = emnt, #the extreme min temp for month
+         max_snow_depth = emsd, #Highest daily snow depth in the month
+         max_daily_snowfall = emsn, #Highest daily snowfall in the month     
+         max_daily_rain = emxp, # Highest daily total of precipitation in the month     
+         max_temp_ext = emxt, #Extreme max temp for month    
+         total_rain = prcp,   #total precipitation for the month 
+         total_snowfall = snow,
+         avrg_temp =tavg,  
+         avg_max_temp = tmax,  #avg of daily max temps
+         avg_min_temp = tmin)  #avg of daily min temps 
+```
+
+## 2.3 NA handling 
+
+```{r}
+# see how many NA there are per columns
+weather_02 %>%
+  summarise_all(~ sum(is.na(.)))
+```
+```{r}
+weather_03 = weather_02 %>%
+  mutate(numD_thunder = ifelse(is.na(numD_thunder), 0, numD_thunder)) %>%
+  filter(complete.cases(.))
+```
+
+## 2.4 Variable types
+```{r}
+str(weather_03)
+```
+```{r}
+weather_03$date = as.yearmon(weather_03$date)
+```
+
+# 3. Convert to CSV
+```{r}
+write.csv(weather_03, "average_temperature_ds.csv", row.names = FALSE)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
