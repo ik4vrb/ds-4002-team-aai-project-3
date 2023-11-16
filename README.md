@@ -9,8 +9,7 @@
 ## Context
 
 Weather is something that everyone looks at everyday. In order to be dressed correctly and not be too hot or too cold, everyone has to look at the temperature outside, listen to weather broadcasting, or more commonly, consult with various weather-forecasting apps. While weather-forecasting can sometimes be unreliable with weather events, it is usually more accurate in predicting weather temperatures. This led to us thinking, what would it take to create a predictive model for temperature? 
-
-	For project 3, we want to create a predictive model for Charlottesville weather. We are aware this already exists in many shapes, ways, and forms, but we thought it would be a fun way to learn new tools and play around with data that affects us day to day. We come in contact with local Charlottesville weather every day whether it's walking to class or going grocery shopping. We want to be able to predict the average temperature for each month in Charlottesville. This will not only be something we learn about, but something we experience as well. 
+For project 3, we want to create a predictive model for Charlottesville weather. We are aware this already exists in many shapes, ways, and forms, but we thought it would be a fun way to learn new tools and play around with data that affects us day to day. We come in contact with local Charlottesville weather every day whether it's walking to class or going grocery shopping. We want to be able to predict the average temperature for each month in Charlottesville. This will not only be something we learn about, but something we experience as well. 
 
 
 ## Repository Contents 
