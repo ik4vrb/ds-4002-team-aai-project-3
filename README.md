@@ -68,11 +68,15 @@ All the visualizations for this project can be found in the [Figures](https://gi
 
 |    Figue ID     |  Figure Name  |  Description  |
 | ----------------| ------------- | ------------- |
-|  Figure 1       | Estimated Price by Time Period | Boxplot demonstrating the spread of price estimates within a given time period. The data base had three diferent time periods which is why there are only three box plots.|
-|  Figure 2       | Artist Count | This is a bargraph demontrateing how many paintings correponding to each artist are represented in the dataset. |
-|  Figure 3       | Average Price of Painting by Artist| This is a bragraph demontstrating the average estimaed price by the artist represented in our data set. |
+|        | |
+|  | |
+|         | |
 
 
 ## Reference
-[1] G. Fernández, “The 200 Most Valuable Paintings in private hands” theartwolf.com, May. 2008. [Online]. Available: https://theartwolf.com/art-market/most-valuable-paintings/. [Accessed Oct. 8, 2023]
-[2] Ray, “Color, Shape, and Texture: Feature Extraction using OpenCV” medium.com, Feb. 19, 2022. [Online]. Available: https://medium.com/mlearning-ai/color-shape-and-texture-feature-extraction-using-opencv-cb1feb2dbdAccessed Oct. 7, 2023.
+MISSING OF THE DATA SETTTTT 
+[1] R. Kosandal, “Weather forecasting with Recurrent Neural Networks in Python” Medium.com, Dec. 29, 2019. [Online]. Available: https://medium.com/analytics-vidhya/weather-forecasting-with-recurrent-neural-networks-1eaa057d70c3. [Accessed Nov. 5, 2023].  
+
+[2] Lawrimore, Jay H.; Ray, Ron; Applequist, Scott; Korzeniewski, Bryant; Menne, Matthew J. (2016): “Global Summary of the Month (GSOM), Version 1". NOAA National Centers for Environmental Information. https://doi.org/10.7289/V5QV3JJ5. [Assessed Nov. 12, 2023]
+
+[3] Lawrimore, Jay H.; Ray, Ron; Applequist, Scott; Korzeniewski, Bryant; Menne, Matthew J. (2016): “Global Summary of the Month (GSOM), Data Files". NOAA National Centers for Environmental Information.https://www.ncei.noaa.gov/data/global-summary-of-the-month/doc/GSOM_documentation.pdf .[Assessed Nov. 12, 2023]
