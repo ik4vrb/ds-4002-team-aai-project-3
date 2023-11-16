@@ -34,7 +34,9 @@ There are __ files in the SRC folder:
 
 All the data for this project can be found in the [Data](https://github.com/ik4vrb/ds-4002-team-aai-project-3/tree/main/Data) folder.
 
-Only one data set was used for this project.
+There are two data files in this folder:
+  1. weather_data.csv --> The original data set
+  2. average_temperature_ds.csv --> The data set we used for the project after cleaning
    
 ### Main Data Set
 
