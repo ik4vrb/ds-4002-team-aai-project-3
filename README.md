@@ -51,7 +51,6 @@ There are two data files in this folder:
 | days_max32_degrees | Number of days in the month where the maximum temperature was 32 degrees F | numeric |
 | days_max70_degrees | Number of days in the month where the maximum temperature was 70 degrees F | numeric |
 | days_max90_degrees | Number of days in the month where the maximum temperature was 90 degrees F | numeric |
-|   numD_fog   | |  |
 |  numD_thunder | Number of days in the month where there were thunderstorms | numeric |
 |  min_temp_ext | The extreme minimum temperature that there was during given month | numeric (celcius) |
 |  max_snow_depth | Highest daily snow depth in the month | numeric (inches)  |
