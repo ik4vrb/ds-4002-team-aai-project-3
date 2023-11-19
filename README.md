@@ -71,15 +71,15 @@ All the visualizations for this project can be found in the [Figures](https://gi
 
 |    Figue ID     |  Figure Name  |  Description  |
 | ----------------| ------------- | ------------- |
-|    figure1      | Cummulative Monthly Snowfall 1945-2023 ||
-|    figure 2     | Average Temperature Range 1945-2023 ||
-|    figure 3     | Distribution of Commulative Rainfall 1945-2023 |
-|    figure 4     | Distribution of Commulative Snowfall 1945-2023||
-|    figure 5     | Maximum Rainfall by Month 1945-2023 ||
+|    figure1      | Cummulative Monthly Snowfall 1945-2023 | This graph demonstrates the commulative snowfall that happened every month for every year.  |
+|    figure 2     | Maximum Rainfall by Month 1945-2023 | This shows the average maximum rainfall for evey month. |
+|    figure 3     | Average Temperature Range 1945-2023 | This graph shows the average max and min temperatures for every month. |
+|    figure 4     | Distribution of Commulative Rainfall 1945-2023 | This show the distribution of rainfall throughout the years. |
+|    figure 5     | Distribution of Commulative Snowfall 1945-2023 | This show the distribution of snowfall throughout the years. |
 
 
 ## Reference
-MISSING OF THE DATA SETTTTT 
+ 
 [1] R. Kosandal, “Weather forecasting with Recurrent Neural Networks in Python” Medium.com, Dec. 29, 2019. [Online]. Available: https://medium.com/analytics-vidhya/weather-forecasting-with-recurrent-neural-networks-1eaa057d70c3. [Accessed Nov. 5, 2023].  
 
 [2] Lawrimore, Jay H.; Ray, Ron; Applequist, Scott; Korzeniewski, Bryant; Menne, Matthew J. (2016): “Global Summary of the Month (GSOM), Version 1". NOAA National Centers for Environmental Information. https://doi.org/10.7289/V5QV3JJ5. [Assessed Nov. 12, 2023]
