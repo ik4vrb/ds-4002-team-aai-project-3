@@ -71,11 +71,11 @@ All the visualizations for this project can be found in the [Figures](https://gi
 
 |    Figue ID     |  Figure Name  |  Description  |
 | ----------------| ------------- | ------------- |
-|    figure1      | |
-|    figure 2     | |
-|    figure 3     | |
-|    figure 4     | |
-|    figure 5     | |
+|    figure1      | Cummulative Monthly Snowfall 1945-2023 ||
+|    figure 2     | Average Temperature Range 1945-2023 ||
+|    figure 3     | Distribution of Commulative Rainfall 1945-2023 |
+|    figure 4     | Distribution of Commulative Snowfall 1945-2023||
+|    figure 5     | Maximum Rainfall by Month 1945-2023 ||
 
 
 ## Reference
