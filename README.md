@@ -19,6 +19,7 @@ All code used for this project can be found in the [SRC](https://github.com/ik4v
 
 This folder contains the following files:
   1. data_cleaning.rmd --> the file where the data was cleaned in order to be used
+  2. analysis1.ipynb
  
 ### Code Installing/Building
 
@@ -70,9 +71,11 @@ All the visualizations for this project can be found in the [Figures](https://gi
 
 |    Figue ID     |  Figure Name  |  Description  |
 | ----------------| ------------- | ------------- |
-|        | |
-|  | |
-|         | |
+|    figure1      | |
+|    figure 2     | |
+|    figure 3     | |
+|    figure 4     | |
+|    figure 5     | |
 
 
 ## Reference
