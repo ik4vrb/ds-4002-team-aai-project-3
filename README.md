@@ -20,18 +20,18 @@ All code used for this project can be found in the [SRC](https://github.com/ik4v
 This folder contains the following files:
   1. data_cleaning.rmd --> the file where the data was cleaned in order to be used
   2. analysis1.ipynb
+  3. RNN_Weather_Predictor_IK.ipynb
  
 ### Code Installing/Building
 
-This project was created using _____. Here are the steps:
-
-(INSERT STEPS HERE)
+This project was created using RStudio for the data cleaning and Python for the Decision Tree Regression and RNN models. Here are the steps:
+  1. Run the data_cleaning.rmd file with the weather_data.csv to retrieve the average_temperature_ds.csv file to be used for the analyses.
+  2. Run the analysis1.ipynb with a Python IDE along with the average_temperature_ds.csv in the same directory to build the decision tree regression model.
+  3. Run the RNN_Weather_Predictor_IK.ipynb with a Python IDE along with the average_temperature_ds.csv in the same directory to build the recurrent neural network model.
 
 ### Code Usage
 
-There are __ files in the SRC folder:
-
-(INSERT SRC FILE INFORMATION HERE)
+Running the files in SRC will produce predictive models that can be used to predict the temperature based off of the context provided from the data sources.
 
 ## Data
 
